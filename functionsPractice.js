@@ -32,6 +32,25 @@ multiplyTwoNumbers (10, 12)
 
 // 5. Write a function that converts weeks into hours. Return the result. 
 // Invoke the function.
+function turnWeeksintoHours (weeks, days, hours) {
+    const result = weeks * days * hours
+    return result;
+}
+
+const result = turnWeeksintoHours (10, 7, 24)
+console.log (result);
+
+const weeksInYear = 52
+const hoursInYear = turnWeeksintoHours(weeksInYear, 7, 24)
+
+console.log("There are " + hoursInYear + " hours in a year.")
+
+//
+
+
+
+
+
 
 // 6. Write a function that takes two parameters, a total price and a tax rate,
 // and calculates the cost of tax.
